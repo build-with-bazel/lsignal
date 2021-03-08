@@ -98,6 +98,7 @@ namespace lsignal
 		bool is_locked() const;
 		void set_lock(const bool lock);
 
+protected:
 		void disconnect();
 
 	private:
